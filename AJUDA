@@ -1,0 +1,27 @@
+# Navegue até o diretório
+cd dir_do_projeto
+
+# Criar um repositório local e linká-lo com o remoto
+	# Cria um repositório local
+	git init
+
+	# Linka os repositórios locais e remotos
+	git remote add origin URL_SSH_DO_GITHUB
+
+# Enviando as coisas pro repo remoto
+	# Adiciona todas as modificações feitas
+	git add -A 				
+	
+	# Cria um pacote (commit) com as modificações
+	git commit -m 'Mensagem do commit'
+
+	# Envia os pacotes (commits) para o servidor remoto
+	git push origin master
+
+
+# Obter pacotes (commits) do servidor remoto 
+git pull origin master
+
+
+# Instalar o phpMyAdmin no Cloud9
+phpmyadmin-ctl install
