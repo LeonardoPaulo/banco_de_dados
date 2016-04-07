@@ -19,8 +19,6 @@ class Users extends CI_Controller {
         $this->db->insert('users', $this);
         
         
-        
-        //$this->load->view('users/inicial');
     }
     
     public function add () {
